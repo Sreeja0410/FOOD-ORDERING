@@ -7,7 +7,7 @@ With our website, users can conveniently pre-order their food and pay for it onl
 
 
 
-**SOLUTION **:
+**SOLUTION**:
 
 This website will provide students with a platform for food-ordering purposes. The main advantages of this website are reducing fraud cases and users knowing the estimated time for item preparation might reduce the wastage of time standing in queues. The website's interface will be user-friendly, ensuring that all students can use it without any difficulty.
 

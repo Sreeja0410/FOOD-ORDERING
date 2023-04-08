@@ -33,7 +33,7 @@ async function main() {
             name:`${main_cats[cat]}_shake`,
             category:main_cats[cat],
             price:2,
-            imageUrl:'https://static.toiimg.com/photo/84226147.cms'
+            imageUrl:'https://smoothie.school/app/uploads/2020/04/Oreo-Nutella-Milkshake.jpg'
           }
           products.push(prod1);
           products.push(prod2);

@@ -4,21 +4,21 @@ const router = express.Router()
 
 const User = require('../models/userModel')
 
-router.post('/create-user', (req, res) => {
+router.post('/create-user', async (req, res) => {
     const user = new User({
         name: req.body.name,
         email: req.body.email,
-        _id: req.body._id,
+        userid:req.body.userid
     })
 
-     user.save((err, user) => {
-        if (err) {
-            res.status(400).send({ error : err})
-        } else {
-            res.status(200).send({ data: user})
-        }
-    })
+     await user.save();
+
+    return res.status(200).send({ message: "signed up"});
+
+
 })
+
+
 
 
 module.exports = router

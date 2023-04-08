@@ -39,7 +39,7 @@ const Register = () => {
                 body: JSON.stringify({
                     email: data.email,
                     name: data.name,
-                    _id: uid
+                    userid: uid
                 })
             }).then((response) => {
                 if (response.status === 200) {

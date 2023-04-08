@@ -20,17 +20,25 @@ async function main() {
             'https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg',
         ]
         let products = [];
-        for (let i = 0; i < 10; i+=1) {
-            let newProduct = {
-                name: faker.commerce.productName(),
-                adjective: faker.commerce.productAdjective(),
-                desciption: faker.commerce.productDescription(),
-                price: faker.commerce.price(),
-                category: _.sample(categories),
-                imageUrl: _.sample(imageUrls)
-            };
-            products.push(newProduct);
+        let items=['pizza','shake']
+        let main_cats= ['Barista', 'Main Canteen', 'Ram Dhani', 'Amul Canteen']
+        for(let cat in main_cats ){
+          let prod1={
+            name:`${main_cats[cat]}_pizza`,
+            category:main_cats[cat],
+            price:2,
+            imageUrl:'https://www.sharmispassions.com/wp-content/uploads/2020/03/WhiteSaucePasta6-500x375.jpg'
+          }
+          let prod2={
+            name:`${main_cats[cat]}_shake`,
+            category:main_cats[cat],
+            price:2,
+            imageUrl:'https://static.toiimg.com/photo/84226147.cms'
+          }
+          products.push(prod1);
+          products.push(prod2);
         }
+        await productsCollection.deleteMany({})
         await productsCollection.insertMany(products);
     } catch (e) {
         console.error(e);

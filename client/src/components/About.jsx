@@ -8,13 +8,11 @@ export const About = () => {
                 <div className="">
                     <h2 className="text-2xl font-medium">About Us</h2>
                     <p className="text-lg">
-                  Hi this is a food website. Incidunt,
-                    beatae! Doloribus fuga aperiam magni ipsum repellat voluptates
-                    itaque error, atque, exercitationem fugit ab, modi ut voluptatum
-                    sequi ad eum! Rerum! Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Minus quia suscipit deserunt, neque nemo veniam
-                    adipisci deleniti culpa dolor dolores omnis, rem veritatis assumenda
-                    eaque dignissimos ut, nam debitis numquam!
+                    This website is a small initiative to reduce waiting time in canteen and stalls at IITISM.
+  This website can help people to order their food from their phones and get an estimated time for
+  preparation of corresponding item.So accordingly people can go and get their food without
+  wasting their time while the item is being prepared.This helps the people in saving their time and
+  also reduces rush at stalls.
                     </p>
                 </div>
                 <div className="flex items-center justify-center">

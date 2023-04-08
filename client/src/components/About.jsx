@@ -8,7 +8,7 @@ export const About = () => {
                 <div className="">
                     <h2 className="text-2xl font-medium">About Us</h2>
                     <p className="text-lg">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
+                  Hi this is a food website. Incidunt,
                     beatae! Doloribus fuga aperiam magni ipsum repellat voluptates
                     itaque error, atque, exercitationem fugit ab, modi ut voluptatum
                     sequi ad eum! Rerum! Lorem ipsum dolor sit amet consectetur

@@ -5,6 +5,7 @@ import { ProductsPreview } from "../../components/ProductsPreview";
 const Home = ()=>{
   return(
     <>
+
     <Banner />
     <ProductsPreview />
      <About />

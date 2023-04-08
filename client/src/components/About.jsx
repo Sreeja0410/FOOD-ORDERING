@@ -8,11 +8,7 @@ export const About = () => {
                 <div className="">
                     <h2 className="text-2xl font-medium">About Us</h2>
                     <p className="text-lg">
-                    This website is a small initiative to reduce waiting time in canteen and stalls at IITISM.
-  This website can help people to order their food from their phones and get an estimated time for
-  preparation of corresponding item.So accordingly people can go and get their food without
-  wasting their time while the item is being prepared.This helps the people in saving their time and
-  also reduces rush at stalls.
+                    This website is an initiative in order to resolve the issue of waiting in stalls at IIT(ISM).It's always frustrating to have to wait in long lines, especially when you're short on time or hungry. This website could help streamline the ordering process and make it more convenient for students and faculty at IIT(ISM) to order food and other items from the stalls. It could also potentially reduce congestion and wait times at the stalls themselves, making it a win-win for everyone involved.Through this website people can signup and order the items which require time to be prepared, and an estimated time is shown to the customer.According to the time shown the customer can come and collect the item. I hope the website is successful in helping to improve the overall experience for everyone at IIT(ISM).
                     </p>
                 </div>
                 <div className="flex items-center justify-center">
